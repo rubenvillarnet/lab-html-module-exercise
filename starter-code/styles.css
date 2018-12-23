@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Source+Sans+Pro:300,400,700');
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 48px;
+}
+
+h2{
+  font-weight: 200;
+  font-size: 32px;
+}
+
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 24px;;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.nav-left{
+  float: left;
+  padding-left: 20px;
+}
+
+.nav-left .heart{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links ul{
+  margin: 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.header{
+  background-color: rgb(32, 101, 136);
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+.header .top-bar{
+  padding: 20px;
+  display: flex;
+}
+
+.header .logo{
+  width: 100px;
+  height: 100%;
+}
+
+.header .search-bar{
+  flex-grow: 1;
+  display: flex;
+  margin: 0 20px;
+}
+
+.header .search-bar input{
+  width: 70%;
+  background-color: rgb(31, 82, 111);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 8px;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+.header .search-bar input::placeholder{
+  color: rgba(255,255,255,0.4);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.header .search-bar button{
+  background-color: rgb(31, 82, 111);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-left: 0;
+    color: rgba(255,255,255,0.4);
+    font-size: 16px;
+    padding: 8px;
+    margin: 0;
+}
+
+.header .login{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.header .bear-logo{
+  width: 32px;
+  margin-left: 10px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("images/city-scape.svg");
+  background-position: right bottom;
+}
+
+header .container {
+  padding-bottom: 150px;
+}
+
+.header-text{
+  width: 600px;
+}
+
+.header-text a{
+  background-color: rgb(240, 146, 51);
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 8px 40px;
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.npm-org{
+  color: #fff;
+  background-color: rgb(39, 53, 71);
+  padding: 100px 0;
+}
+
+.npm-org .image{
+  width: 48%;
+  float:left;
+  
+}
+
+.npm-org .text{
+  width: 48%;
+  float: right;
+}
+
+.npm-org .text h2{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.npm-org .text ul{
+  font-size: 14px;
+  line-height: 2.5em;
+}
+
+.npm-org .text p{
+  font-size: 16px;
+}
+
+.npm-org .text a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.npm-org .text .button{
+  display: inline-block;
+  background-color: rgb(203, 56, 55);
+  padding: 8px 30px;
+  border-radius: 20px;
+}
+
+.what-is-npm{
+  background-image: url('images/forklift.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.what-is-npm .container{
+  padding: 100px 0 180px 0;
+}
+
+.what-is-npm .text{
+  width: 33%;
+  font-size: 16px;
+}
+
+.what-is-npm a{
+  color: #fff;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 20px;
+  background-color: rgb(49, 68, 88);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.npm-packages{
+  color: rgb(135, 145, 156);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 40px 0;
+}
+
+.npm-packages h2{
+  color: rgb(83, 88, 98);
+}
+
+.npm-packages a{
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(208, 74, 73);
+  font-weight: 400;
+}
+
+.npm-packages .blurbs{
+  margin-top: 30px;
+}
+
+.npm-packages .blurb{
+  width: 33%;
+  float: left;
+  padding: 35px;
+  box-sizing: border-box;
+}
